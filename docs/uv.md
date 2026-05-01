@@ -278,8 +278,6 @@ py_library(
 ```
 @pypi                                     # Your UV built hub repository
 @pypi//requests:requests                  # The library for a requirement
-@pypi//requests:whl                       # The whl implementing a requirement
-@pypi//requests:whl                       # The whl implementing a requirement
 @pypi//jinja2-cli/entrypoints:jinja2-cli  # A requirement's declared entrypoint
 ```
 
